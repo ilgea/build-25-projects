@@ -1,0 +1,46 @@
+/* bizden komplex css beklemezler */
+/* sadece temel stillendirme yeter de artar */
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapper button {
+  padding: 10px 20px;
+  background: #614101;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.accordion {
+  width: 500px;
+}
+
+.item {
+  background: #614101;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.title {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contenty {
+  color: #fff;
+  height: auto;
+}
