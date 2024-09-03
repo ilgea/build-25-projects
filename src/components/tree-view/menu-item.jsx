@@ -13,8 +13,6 @@ export default function MenuItem({ item }) {
     });
   };
 
-  console.log(displayCurrentChildren);
-
   return (
     <li>
       <div className="menu-item">
