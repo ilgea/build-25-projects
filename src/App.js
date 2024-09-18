@@ -1,6 +1,8 @@
 import "./App.css";
-import TreeView from "./components/tree-view";
-import menus from "./components/tree-view/data";
+import LightDarkMode from "./components/light-dark-mode";
+// import QRCodeGenerator from "./components/qr-code-generator";
+// import TreeView from "./components/tree-view";
+// import menus from "./components/tree-view/data";
 // import Accordion from "./components/accordions";
 // import RandomColor from "./components/random-color";
 // import StarRating from "./components/star-raiting";
@@ -23,7 +25,24 @@ function App() {
       {/* ----------- Load More Products Component ----------- */}
       {/* <LoadMoreData /> */}
       {/* ----------------- Tree View component/menu UI component / recursive navigation menu --------------- */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+      {/* --------------------- QR Code Generator ------------ */}
+      {/* <QRCodeGenerator /> */}
+      {/* ----------- light and dark theme switch ----------- */}
+      <LightDarkMode />
+      {/* Scroll indicator component */}
+       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      {/* Custom tabs component */}
+      {/* Custom Modal Component */}
+      {/* Github profile finder */}
+      {/* Search Autocomplete */}
+      {/* Tic tac toe */}
+      {/* Feature Flag IMplementation */}
+      {/* useFetch - Custom Hook Test*/}
+      {/* Use Onclick Outside Hook Test */}
+      {/* Use Window Resize Hook Test */}
+      {/* Scroll to Top and Bottom */}
+      {/* Scroll to a Particular Section */}
     </div>
   );
 }
