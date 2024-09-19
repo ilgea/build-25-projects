@@ -1,5 +1,6 @@
 import "./App.css";
-import TabTest from "./components/custom-tabs/tab-test";
+import ModalTest from "./components/custom-modal-popup/modal-test";
+// import TabTest from "./components/custom-tabs/tab-test";
 // import ScrollIndicator from "./components/scroll-indicator";
 // import LightDarkMode from "./components/light-dark-mode";
 // import QRCodeGenerator from "./components/qr-code-generator";
@@ -35,9 +36,9 @@ function App() {
       {/* Scroll indicator component */}
        {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* ----------------- Custom tabs component ---------------- */}
-      <TabTest />
-
+      {/* <TabTest /> */}
       {/* Custom Modal Component */}
+      <ModalTest />
       {/* Github profile finder */}
       {/* Search Autocomplete */}
       {/* Tic tac toe */}
