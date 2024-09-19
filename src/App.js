@@ -1,5 +1,6 @@
 import "./App.css";
-import LightDarkMode from "./components/light-dark-mode";
+import ScrollIndicator from "./components/scroll-indicator";
+// import LightDarkMode from "./components/light-dark-mode";
 // import QRCodeGenerator from "./components/qr-code-generator";
 // import TreeView from "./components/tree-view";
 // import menus from "./components/tree-view/data";
@@ -29,9 +30,9 @@ function App() {
       {/* --------------------- QR Code Generator ------------ */}
       {/* <QRCodeGenerator /> */}
       {/* ----------- light and dark theme switch ----------- */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
       {/* Scroll indicator component */}
-       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       {/* Custom tabs component */}
       {/* Custom Modal Component */}
       {/* Github profile finder */}
