@@ -1,5 +1,6 @@
 import "./App.css";
-import ScrollIndicator from "./components/scroll-indicator";
+import TabTest from "./components/custom-tabs/tab-test";
+// import ScrollIndicator from "./components/scroll-indicator";
 // import LightDarkMode from "./components/light-dark-mode";
 // import QRCodeGenerator from "./components/qr-code-generator";
 // import TreeView from "./components/tree-view";
@@ -32,8 +33,10 @@ function App() {
       {/* ----------- light and dark theme switch ----------- */}
       {/* <LightDarkMode /> */}
       {/* Scroll indicator component */}
-       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
-      {/* Custom tabs component */}
+       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      {/* ----------------- Custom tabs component ---------------- */}
+      <TabTest />
+
       {/* Custom Modal Component */}
       {/* Github profile finder */}
       {/* Search Autocomplete */}
