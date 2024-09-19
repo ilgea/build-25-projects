@@ -1,5 +1,6 @@
 import "./App.css";
-import ModalTest from "./components/custom-modal-popup/modal-test";
+import GithubProfileFinder from "./components/github-profile-finder";
+// import ModalTest from "./components/custom-modal-popup/modal-test";
 // import TabTest from "./components/custom-tabs/tab-test";
 // import ScrollIndicator from "./components/scroll-indicator";
 // import LightDarkMode from "./components/light-dark-mode";
@@ -16,30 +17,43 @@ import ModalTest from "./components/custom-modal-popup/modal-test";
 function App() {
   return (
     <div className="App">
-      {/* ---------- Accordion Component ---------- */}
+      {/* ------------------------------  Accordion Component  ------------------------------ */}
       {/* <Accordion /> */}
-      {/* ---------- Random Color Component ---------- */}
+
+      {/* ------------------------------  Random Color Component  ------------------------------ */}
       {/* <RandomColor /> */}
-      {/* ---------- Star Rating Component ---------- */}
+
+      {/* ------------------------------  Star Rating Component  ------------------------------ */}
       {/* <StarRating noOfStars={10} /> */}
-      {/* ---------- Image Slider Components ---------- */}
+
+      {/* ------------------------------  Image Slider Components  ------------------------------ */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={"1"} limit={10}/> */}
       {/* <Slayder url={"https://picsum.photos/v2/list"} page={"1"} limit={10} /> */}
-      {/* ----------- Load More Products Component ----------- */}
+
+      {/* ------------------------------  Load More Products Component  ------------------------------ */}
       {/* <LoadMoreData /> */}
-      {/* ----------------- Tree View component/menu UI component / recursive navigation menu --------------- */}
+
+      {/* ------------------------------  Tree View component/menu UI component / recursive navigation menu  ------------------------------ */}
       {/* <TreeView menus={menus} /> */}
-      {/* --------------------- QR Code Generator ------------ */}
+
+      {/* ------------------------------  QR Code Generator  ------------------------------ */}
       {/* <QRCodeGenerator /> */}
-      {/* ----------- light and dark theme switch ----------- */}
+
+      {/* ------------------------------  light and dark theme switch  ------------------------------ */}
       {/* <LightDarkMode /> */}
-      {/* Scroll indicator component */}
-       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      {/* ----------------- Custom tabs component ---------------- */}
+      
+      {/* ------------------------------  Scroll indicator component  ------------------------------ */}
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* ------------------------------  Custom tabs component  ------------------------------ */}
       {/* <TabTest /> */}
-      {/* Custom Modal Component */}
-      <ModalTest />
-      {/* Github profile finder */}
+
+      {/* ------------------------------  Custom Modal Component  ------------------------------ */}
+      {/* <ModalTest /> */}
+
+      {/* ------------------------------  Github profile finder  ------------------------------ */}
+       <GithubProfileFinder />
+
       {/* Search Autocomplete */}
       {/* Tic tac toe */}
       {/* Feature Flag IMplementation */}
