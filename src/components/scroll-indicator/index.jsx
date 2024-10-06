@@ -10,6 +10,10 @@ const ScrollIndicator = ({ url }) => {
   const [errorMessage, setErrorMessage] = useState("");
   const [scrollPercentage, setScrollPercentage] = useState(0);
 
+
+
+
+
   async function fetchData(getUrl) {
     try {
       setLoading(true);

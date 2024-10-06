@@ -1,5 +1,6 @@
 import "./App.css";
-import GithubProfileFinder from "./components/github-profile-finder";
+import SearchAutoComplete from "./components/search-autocomplete-with-api";
+// import GithubProfileFinder from "./components/github-profile-finder";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
 // import TabTest from "./components/custom-tabs/tab-test";
 // import ScrollIndicator from "./components/scroll-indicator";
@@ -41,7 +42,7 @@ function App() {
 
       {/* ------------------------------  light and dark theme switch  ------------------------------ */}
       {/* <LightDarkMode /> */}
-      
+
       {/* ------------------------------  Scroll indicator component  ------------------------------ */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
@@ -52,9 +53,10 @@ function App() {
       {/* <ModalTest /> */}
 
       {/* ------------------------------  Github profile finder  ------------------------------ */}
-       <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
 
       {/* Search Autocomplete */}
+      <SearchAutoComplete />
       {/* Tic tac toe */}
       {/* Feature Flag IMplementation */}
       {/* useFetch - Custom Hook Test*/}
