@@ -1,5 +1,7 @@
 import "./App.css";
-import TicTacToe from "./components/tic-tact-toe";
+import FeatureFlags from "./components/feature-flag";
+import FeatureFlagGlobalState from "./components/feature-flag/context";
+// import TicTacToe from "./components/tic-tact-toe";
 // import SearchAutoComplete from "./components/search-autocomplete-with-api";
 // import GithubProfileFinder from "./components/github-profile-finder";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
@@ -58,13 +60,23 @@ function App() {
 
       {/* ------------------------------  Search Autocomplete  ------------------------------ */}
       {/* <SearchAutoComplete /> */}
+
       {/* ------------------------------  Tic tac toe  ------------------------------ */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
       {/* Feature Flag IMplementation */}
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>
+
       {/* useFetch - Custom Hook Test*/}
+
       {/* Use Onclick Outside Hook Test */}
+
       {/* Use Window Resize Hook Test */}
+
       {/* Scroll to Top and Bottom */}
+
       {/* Scroll to a Particular Section */}
     </div>
   );
