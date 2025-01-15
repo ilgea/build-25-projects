@@ -1,6 +1,7 @@
 import "./App.css";
-import FeatureFlags from "./components/feature-flag";
-import FeatureFlagGlobalState from "./components/feature-flag/context";
+import UseFetchHookTest from "./components/use-fetch/test";
+// import FeatureFlags from "./components/feature-flag";
+// import FeatureFlagGlobalState from "./components/feature-flag/context";
 // import TicTacToe from "./components/tic-tact-toe";
 // import SearchAutoComplete from "./components/search-autocomplete-with-api";
 // import GithubProfileFinder from "./components/github-profile-finder";
@@ -64,12 +65,13 @@ function App() {
       {/* ------------------------------  Tic tac toe  ------------------------------ */}
       {/* <TicTacToe /> */}
 
-      {/* Feature Flag IMplementation */}
-      <FeatureFlagGlobalState>
+      {/* ------------------------------ Feature Flag IMplementation  ------------------------------ */}
+      {/* <FeatureFlagGlobalState>
         <FeatureFlags />
-      </FeatureFlagGlobalState>
+      </FeatureFlagGlobalState> */}
 
-      {/* useFetch - Custom Hook Test*/}
+      {/* ------------------------------ useFetch - Custom Hook Test ------------------------------ */}
+      <UseFetchHookTest />
 
       {/* Use Onclick Outside Hook Test */}
 
