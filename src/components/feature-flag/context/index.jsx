@@ -7,7 +7,7 @@ export const FeatureFlagsContext = createContext(null);
 
 export default function FeatureFlagGlobalState({ children }) {
   const [loading, setLoading] = useState(false);
-  const [enabledFlags, setEnabledFlags] = useState(null);
+  const [enabledFlags, setEnabledFlags] = useState({});
 
   async function fetchFeatureFlags() {
     try {
