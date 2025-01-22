@@ -1,5 +1,7 @@
 import "./App.css";
-import UseFetchHookTest from "./components/use-fetch/test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
+// import UseOnclickOutsideTest from "./components/use-outside-click/test";
+// import UseFetchHookTest from "./components/use-fetch/test";
 // import FeatureFlags from "./components/feature-flag";
 // import FeatureFlagGlobalState from "./components/feature-flag/context";
 // import TicTacToe from "./components/tic-tact-toe";
@@ -71,13 +73,16 @@ function App() {
       </FeatureFlagGlobalState> */}
 
       {/* ------------------------------ useFetch - Custom Hook Test ------------------------------ */}
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
 
-      {/* Use Onclick Outside Hook Test */}
+      {/* ------------------------------ Use Onclick Outside Hook Test ------------------------------ */}
+      {/* <UseOnclickOutsideTest/> */}
 
-      {/* Use Window Resize Hook Test */}
+      {/* ------------------------------ Use Window Resize Hook Test ------------------------------ */}
+      <UseWindowResizeTest />
 
       {/* Scroll to Top and Bottom */}
+
 
       {/* Scroll to a Particular Section */}
     </div>
