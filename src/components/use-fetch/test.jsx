@@ -1,6 +1,8 @@
 import useFetch from ".";
 
 export default function UseFetchHookTest() {
+
+  // useFetch custom Hook'u oluşturduk.
   const { data, error, pending } = useFetch(
     "https://dummyjson.com/products",
     {}
